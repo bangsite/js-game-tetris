@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#board {
+    @apply border-2 border-black;
+}
+
+.side-bar {
+    @apply flex flex-col gap-4 ;
+}
+
+.btn {
+    @apply bg-gray-400 cursor-pointer px-3 py-2 rounded;
+}
+
+.btn__play {
+    background: greenyellow;
+}
+

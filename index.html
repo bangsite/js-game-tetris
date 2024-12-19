@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Game Tetris</title>
+    <link href="./styles/output.css" rel="stylesheet">
+    <link href="./styles/main.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;700&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Poppins:wght@300;400;700&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container mx-auto grid grid-cols-layout py-12">
+        <canvas id="board" class=""></canvas>
+
+        <div class="side-bar">
+            <div class="info">
+                <h2 class="info__title text-2xl mb-4">Tetris</h2>
+                <p id="score" class="info__score"><strong>0</strong></p>
+            </div>
+            <button id="play" class="btn btn__play">Play</button>
+            <button id="pause" class="btn btn__play">Pause</button>
+            <button id="resume" class="btn btn__play">Resume</button>
+            <button id="reset" class="btn btn__play">Reset</button>
+        </div>
+    </div>
+
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>
